@@ -1,10 +1,6 @@
 #---
-# Excerpted from "Agile Web Development with Rails",
-# published by The Pragmatic Bookshelf.
-# Copyrights apply to this code. It may not be used to create training material, 
-# courses, books, articles, and the like. Contact us if you are in doubt.
-# We make no guarantees that this code is fit for any purpose. 
-# Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
+# Kako da podesim ovajfajl da mi se ne javlja stalno ruta http://localhost:3000/login
+# i to tako sto vodi na Sessions#new umesto na login formu?
 #---
 Depot::Application.routes.draw do
   get 'admin' => 'admin#index'
